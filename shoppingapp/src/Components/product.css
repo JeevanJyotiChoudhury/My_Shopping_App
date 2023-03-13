@@ -1,0 +1,20 @@
+.card{
+    transition: all 0.5s ease;
+}
+.card:hover{
+    transform:scale(1.08);
+   box-shadow:5px 5px 10px rgba(0, 0, 0, 0.5)
+}
+.product img{
+    transition: all 0.2s ease ease-in-out;
+}
+.product img:hover{
+    transform:scale(1.08);
+    box-shadow:5px 5px 10px rgba(0, 0, 0, 0.5)
+}
+/* @media (max-width: 1200px) and (min-width: 760px) {
+    .product img{
+        width:100px;
+    }
+} */
+
